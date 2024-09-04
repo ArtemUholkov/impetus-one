@@ -6,15 +6,118 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="img/global/favicon.webp" />
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="css/reset.css" />
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- SWIPER END -->
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
+    <header class="header">
+      <div class="header_wrapper mycontainer">
+        <nav class="navbar">
+          <a href="#" class="logo_wrapper">
+            <img src="img/global/logo.webp" alt="logo" class="main-logo logo-desk" />
+          </a>
+
+          <ul class="navbar_menu">
+            <li><a href="#solutions" class="nav_elem">Solutions</a></li>
+            <li><a href="#about" class="nav_elem">About platform</a></li>
+            <li><a href="#benefits" class="nav_elem">Benefits</a></li>
+            <li><a href="#reviews" class="nav_elem">Reviews</a></li>
+          </ul>
+          <a href="#" class="regular_button header_button desktop_header_button">
+            <span class="regular_button_text">Get Started</span>
+            <div class="regular_button_icon_wrapper">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+              >
+                <path
+                  d="M13.7889 9.17964C13.7847 9.53019 13.4937 9.80539 13.1432 9.80121C12.7926 9.79703 12.5173 9.51508 12.5215 9.16453L12.5983 2.71927L1.83779 13.2268C1.59195 13.4669 1.1876 13.4621 0.939047 13.2161C0.699094 12.9618 0.703813 12.5659 0.949761 12.3174L11.7102 1.81887L5.27397 1.74214C4.92342 1.73796 4.63916 1.44684 4.64334 1.09629C4.64752 0.745743 4.93864 0.461483 5.28919 0.465662L13.2533 0.560599C13.6039 0.564778 13.8881 0.855896 13.8839 1.20645L13.7889 9.17964Z"
+                  fill="#002C3F"
+                />
+              </svg>
+            </div>
+          </a>
+          <div class="burger">
+            <div class="burger_space" id="burger">
+              <span class="stick"></span>
+              <span class="stick"></span>
+              <span class="stick"></span>
+            </div>
+          </div>
+        </nav>
+        <div class="popup" id="popup">
+          <!-- <img src="img/header/mobmenubg.png" alt="moblogo" class="mob_menu_bgimage" /> -->
+          <div class="popup_textblock" id="popupSlide">
+            <div class="background_mob"></div>
+            <ul class="navbar_menu_mobile">
+              <li>
+                <a href="#solutions" class="nav_elem_mobile"
+                  ><img
+                    src="img/header/menu-arrow.svg"
+                    alt="menu arrow"
+                    class="menu_arrow"
+                  />Solutions</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="nav_elem_mobile"
+                  ><img src="img/header/menu-arrow.svg" alt="menu arrow" class="menu_arrow" />About
+                  platform</a
+                >
+              </li>
+
+              <li>
+                <a href="#benefits" class="nav_elem_mobile"
+                  ><img
+                    src="img/header/menu-arrow.svg"
+                    alt="menu arrow"
+                    class="menu_arrow"
+                  />Benefits</a
+                >
+              </li>
+              <li>
+                <a href="#reviews" class="nav_elem_mobile"
+                  ><img
+                    src="img/header/menu-arrow.svg"
+                    alt="menu arrow"
+                    class="menu_arrow"
+                  />Reviews</a
+                >
+              </li>
+              <li class="header_button_mobile_wrapper">
+                <a href="#" class="regular_button header_button">
+                  <span class="regular_button_text">Get Started</span>
+                  <div class="regular_button_icon_wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                    >
+                      <path
+                        d="M13.7889 9.17964C13.7847 9.53019 13.4937 9.80539 13.1432 9.80121C12.7926 9.79703 12.5173 9.51508 12.5215 9.16453L12.5983 2.71927L1.83779 13.2268C1.59195 13.4669 1.1876 13.4621 0.939047 13.2161C0.699094 12.9618 0.703813 12.5659 0.949761 12.3174L11.7102 1.81887L5.27397 1.74214C4.92342 1.73796 4.63916 1.44684 4.64334 1.09629C4.64752 0.745743 4.93864 0.461483 5.28919 0.465662L13.2533 0.560599C13.6039 0.564778 13.8881 0.855896 13.8839 1.20645L13.7889 9.17964Z"
+                        fill="#002C3F"
+                      />
+                    </svg>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
     <section class="main">
       <div class="left_wrapper">
         <div class="left_top">
@@ -96,7 +199,52 @@
           </div>
         </div>
       </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="left_bottom_block">
+              <div class="left_bottom_block_content">
+                <img class="left_bottom_block_icon" src="img/main/arrow.svg" alt="arrow icon" />
+                <p class="left_bottom_block_text_left">All-in-one solution designed</p>
+                <p class="left_bottom_block_text_right">for your practice unique needs</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="left_bottom_block">
+              <div class="left_bottom_block_content">
+                <img class="left_bottom_block_icon" src="img/main/graph.svg" alt="arrow icon" />
+                <p class="left_bottom_block_text_left">Boost revenue and</p>
+                <p class="left_bottom_block_text_right">streamline practice operations</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="left_bottom_block">
+              <div class="left_bottom_block_content">
+                <img class="left_bottom_block_icon" src="img/main/checkmark.svg" alt="arrow icon" />
+                <p class="left_bottom_block_text_left">Access to cutting-edge weight loss</p>
+                <p class="left_bottom_block_text_right">hormone and peptide therapies</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
     </section>
   </body>
   <script src="js/script.js"></script>
+  <!-- SWIPER -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.mySwiper', {
+      slidesPerView: 1,
+      loop: true,
+      autoplay: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+  <!-- SWIPER END -->
 </html>
