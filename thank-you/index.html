@@ -19,12 +19,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- SWIPER END -->
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/thankyou.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" data-aos="fade-down" data-aos-duration="1000">
       <div class="header_wrapper mycontainer">
         <nav class="navbar">
           <a href="/" class="logo_wrapper">
@@ -180,29 +181,38 @@
       </div>
     </div>
     <section class="thank_main">
-      <p class="thank_title">Thank you!</p>
-      <p class="thank_subtitle">
+      <p data-aos="fade-up" data-aos-duration="500" class="thank_title">Thank you!</p>
+      <p class="thank_subtitle" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
         We have received your request. A representative will reach out shortly to coordinate your
         free demo!
       </p>
-      <img src="../img/thankyou/thankyoubg.webp" alt="" class="thank_bg_img" />
-      <a href="/" class="regular_button primary_button">
-        <span class="regular_button_text">Back to Site</span>
-        <div class="primary_button_icon_wrapper">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="14"
-            height="14"
-            viewBox="0 0 14 14"
-            fill="none"
-          >
-            <path
-              d="M13.7889 9.17964C13.7847 9.53019 13.4937 9.80539 13.1432 9.80121C12.7926 9.79703 12.5173 9.51508 12.5215 9.16453L12.5983 2.71927L1.83779 13.2268C1.59195 13.4669 1.1876 13.4621 0.939047 13.2161C0.699094 12.9618 0.703813 12.5659 0.949761 12.3174L11.7102 1.81887L5.27397 1.74214C4.92342 1.73796 4.63916 1.44684 4.64334 1.09629C4.64752 0.745743 4.93864 0.461483 5.28919 0.465662L13.2533 0.560599C13.6039 0.564778 13.8881 0.855896 13.8839 1.20645L13.7889 9.17964Z"
-              fill="#002C3F"
-            />
-          </svg>
-        </div>
-      </a>
+      <img
+        data-aos="fade-up"
+        data-aos-duration="500"
+        data-aos-delay="400"
+        src="../img/thankyou/thankyoubg.webp"
+        alt=""
+        class="thank_bg_img"
+      />
+      <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="600">
+        <a href="/" class="regular_button primary_button">
+          <span class="regular_button_text">Back to Site</span>
+          <div class="primary_button_icon_wrapper">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="none"
+            >
+              <path
+                d="M13.7889 9.17964C13.7847 9.53019 13.4937 9.80539 13.1432 9.80121C12.7926 9.79703 12.5173 9.51508 12.5215 9.16453L12.5983 2.71927L1.83779 13.2268C1.59195 13.4669 1.1876 13.4621 0.939047 13.2161C0.699094 12.9618 0.703813 12.5659 0.949761 12.3174L11.7102 1.81887L5.27397 1.74214C4.92342 1.73796 4.63916 1.44684 4.64334 1.09629C4.64752 0.745743 4.93864 0.461483 5.28919 0.465662L13.2533 0.560599C13.6039 0.564778 13.8881 0.855896 13.8839 1.20645L13.7889 9.17964Z"
+                fill="#002C3F"
+              />
+            </svg>
+          </div>
+        </a>
+      </div>
     </section>
   </body>
   <script src="../js/scriptth.js"></script>
@@ -221,4 +231,8 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"
   ></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

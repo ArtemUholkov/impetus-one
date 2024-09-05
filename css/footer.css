@@ -53,6 +53,9 @@ footer {
   line-height: 140%;
   text-decoration: none;
 }
+.footer_link:hover {
+  opacity: 0.65;
+}
 .footer_hours_wrapper {
   width: 221px;
   display: flex;

@@ -19,11 +19,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- SWIPER END -->
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <header class="header">
+    <header data-aos="fade-down" class="header" data-aos-duration="1500">
       <div class="header_wrapper mycontainer">
         <nav class="navbar">
           <a href="#" class="logo_wrapper">
@@ -177,7 +178,7 @@
     </div>
     <section class="main">
       <div class="left_wrapper">
-        <div class="left_top">
+        <div class="left_top" data-aos="fade-right" data-aos-duration="1500">
           <div class="left_top_content_wrapper">
             <h1>
               Empowering Medical Entrepreneurs with<br /><span class="accent_color"
@@ -203,7 +204,7 @@
             </a>
           </div>
         </div>
-        <div class="left_bottom">
+        <div data-aos="fade-up" class="left_bottom" data-aos-duration="1500">
           <div class="left_bottom_block"></div>
           <div class="left_bottom_block" id="f1">
             <div class="left_bottom_block_content">
@@ -229,7 +230,7 @@
         </div>
       </div>
       <img src="img/main/bg-de-cline.svg" alt="line" class="main_deco_line-mob" />
-      <div class="right_wrapper">
+      <div class="right_wrapper" data-aos="fade-left" data-aos-duration="1500">
         <div class="right-top">
           <div class="right-top_bg">
             <div class="right_top_content">
@@ -291,7 +292,7 @@
     </section>
     <section class="sync" id="about">
       <div class="sync_wrapper">
-        <div class="sync_texts_wrapper">
+        <div class="sync_texts_wrapper" data-aos="fade-right">
           <p class="sync_texts_uptitle">Transform your practice!</p>
           <p class="sync_title">
             <span class="accent_color">impetus one:<br /> </span>PracticeSYNC
@@ -328,14 +329,14 @@
             </div>
           </a>
         </div>
-        <div class="sync_img_wrapper">
+        <div class="sync_img_wrapper" data-aos="fade-left">
           <img src="img/sync/sync-righ.webp" alt="sync" class="sync_img" />
         </div>
       </div>
     </section>
     <section class="inno">
       <div class="inno_wrapper">
-        <div class="inno_texts">
+        <div class="inno_texts" data-aos="fade-right">
           <p class="inno_texts_uptitle">Get access to cutting-edge therapies!</p>
           <p class="inno_texts_title">
             Flexibility meets <br /><span class="accent_color">wellness innovations</span>
@@ -383,14 +384,19 @@
           </a>
         </div>
         <div class="inno_image_wrapper">
-          <img src="img/inno/inno-right.webp" alt="woman" class="inno_image" />
-          <img src="img/inno/mob-img.webp" alt="woman" class="inno_image_mob" />
+          <img data-aos="fade-left" src="img/inno/inno-right.webp" alt="woman" class="inno_image" />
+          <img
+            data-aos="fade-left"
+            src="img/inno/mob-img.webp"
+            alt="woman"
+            class="inno_image_mob"
+          />
         </div>
       </div>
     </section>
     <section class="solutions" id="solutions">
       <div class="solutions_wrapper">
-        <div class="solution_titles_wrapper">
+        <div class="solution_titles_wrapper" data-aos="fade-down">
           <p class="solutions_title">Your All-in-One Solution for Growth and Efficiency</p>
           <p class="solutions_subtitle">
             Impetus One: PracticeSYNC connects you with online healthcare brands like Valhalla
@@ -398,7 +404,7 @@
             top-quality service.
           </p>
         </div>
-        <div class="swiper solutions_mySwiper">
+        <div class="swiper solutions_mySwiper" data-aos="fade-up">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="solutions_item">
@@ -446,11 +452,11 @@
     </section>
     <section class="process">
       <div class="process_wrapper">
-        <p class="process_title">
+        <p class="process_title" data-aos="fade-right">
           <span class="accent_color">Convenient process</span><br />
           for your patients
         </p>
-        <div class="swiper process_mySwiper">
+        <div class="swiper process_mySwiper" data-aos="fade-right">
           <div class="swiper-wrapper">
             <div class="swiper-slide steps_slide">
               <div class="process_item_wrapper">
@@ -548,11 +554,11 @@
     </section>
     <section class="faq" id="benefits">
       <div class="faq_wrapper">
-        <p class="faq_title">
+        <p class="faq_title" data-aos="fade-down">
           The key to unlocking<br />
           <span class="accent_color"> your practices’ potential <br /></span>
         </p>
-        <img src="img/faq/woman.webp" alt="woman" class="faq_img" />
+        <img src="img/faq/woman.webp" alt="woman" class="faq_img" data-aos="fade-left" />
         <div class="faq-item" id="faq1">
           <div class="question-wrapper" onclick="toggleAnswer('faq1')">
             <h3 class="question">Increase Revenue</h3>
@@ -622,7 +628,7 @@
         </div>
       </div>
     </section>
-    <section class="reviews" id="reviews">
+    <section class="reviews" id="reviews" data-aos="fade-down">
       <img src="img/review/phone.webp" alt="phone" class="rev_absolute_phone" />
       <div class="reviews_texts_wrapper">
         <p class="reviews_texts_uptitle">A Platform You Can Trust</p>
@@ -690,7 +696,7 @@
         <div class="re_right_big"></div>
       </div>
     </section>
-    <section class="getstarted">
+    <section class="getstarted" data-aos="fade-up">
       <p class="getst_title">Interested in learning more?</p>
       <p class="getst_subtitle">
         Discover how the Impetus One: PracticeSYNC Network can help grow your business
@@ -764,6 +770,7 @@
   ></script>
   <!-- SWIPER -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     var swiper = new Swiper('.mySwiper', {
       pagination: {
@@ -820,6 +827,9 @@
         el: '.swiper-pagination-new-one-two',
       },
     });
+  </script>
+  <script>
+    AOS.init();
   </script>
 
   <!-- SWIPER END -->

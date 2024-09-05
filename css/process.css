@@ -114,6 +114,9 @@
     width: 50px;
     height: 50px;
   }
+  .process_item_wrapper svg {
+    width: 325px;
+  }
 }
 @media (min-width: 901px) {
   @keyframes colorChange {
