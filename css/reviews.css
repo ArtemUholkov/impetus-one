@@ -3,6 +3,7 @@
 
   overflow: hidden;
   position: relative;
+  overflow: hidden;
 }
 .reviews_texts_wrapper {
   padding-left: 250px;

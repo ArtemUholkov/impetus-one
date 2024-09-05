@@ -1,5 +1,6 @@
 .faq {
   padding-top: 200px;
+  overflow: hidden;
 }
 .faq_wrapper {
   padding-left: 204px;
