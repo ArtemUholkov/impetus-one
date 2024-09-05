@@ -6,20 +6,18 @@
   justify-content: center;
 }
 .getst_title {
-  color: #002c3f;
+  color: var(--text);
   font-family: 'Oswald', sans-serif;
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
   line-height: 100%;
   text-transform: uppercase;
   margin-bottom: 24px;
 }
 .getst_subtitle {
-  color: #002c3f;
+  color: var(--text);
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 300;
   line-height: 140%;
   text-align: center;

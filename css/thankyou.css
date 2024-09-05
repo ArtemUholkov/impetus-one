@@ -17,22 +17,20 @@ footer {
 }
 
 .thank_title {
-  color: #00e0ff;
+  color: var(--main);
   text-align: center;
   font-family: 'Oswald', sans-serif;
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
   line-height: 100%; /* 64px */
   text-transform: uppercase;
   margin-bottom: 24px;
 }
 .thank_subtitle {
-  color: #002c3f;
+  color: var(--text);
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 300;
   line-height: 140%;
   max-width: 687px;

@@ -1,7 +1,7 @@
 .inno {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #eef7fe;
+  background-color: var(--bg);
 }
 .inno_wrapper {
   padding-left: 250px;
@@ -16,10 +16,9 @@
   align-items: flex-start;
 }
 .inno_texts_uptitle {
-  color: #002c3f;
+  color: var(--text);
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: 140%;
   margin-bottom: 10px;
@@ -27,7 +26,6 @@
 .inno_texts_title {
   font-family: 'Oswald', sans-serif;
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
   line-height: 100%; /* 64px */
   text-transform: uppercase;
@@ -35,10 +33,9 @@
 }
 
 .inno_texts_text {
-  color: #002c3f;
+  color: var(--text);
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 300;
   line-height: 140%;
   margin-bottom: 7px;
@@ -48,10 +45,9 @@
   font-weight: 700;
 }
 .inno_texts_theraipes {
-  color: #002c3f;
+  color: var(--text);
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: 140%;
   margin-bottom: 20px;
@@ -68,10 +64,9 @@
   left: 40px;
 }
 .inno_texts_list_item {
-  color: #002c3f;
+  color: var(--text);
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: 140%;
 }

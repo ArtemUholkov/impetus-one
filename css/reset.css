@@ -121,3 +121,8 @@ table {
 }
 
 /*CSS RESET END*/
+:root {
+  --main: #00e0ff;
+  --text: #002c3f;
+  --bg: #eef7fe;
+}

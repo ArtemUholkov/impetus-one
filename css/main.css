@@ -22,7 +22,7 @@
 }
 .left_top {
   height: 75%;
-  background-color: #eef7fe;
+  background-color: var(--bg);
   width: 135%;
   left: -35%;
   position: relative;
@@ -37,7 +37,7 @@
 }
 .right-top {
   height: 100%;
-  background-color: #eef7fe;
+  background-color: var(--bg);
   position: relative;
   transform: skew(25deg, 0deg);
   width: 135%;
@@ -54,7 +54,7 @@
 }
 .left_bottom_block {
   width: 25%;
-  background-color: #eef7fe;
+  background-color: var(--bg);
   height: 100%;
 }
 .left_top_content_wrapper {
@@ -68,18 +68,16 @@
 }
 h1 {
   max-width: 741px;
-  color: #002c3f;
+  color: var(--text);
   font-family: 'Oswald', sans-serif;
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
   line-height: 100%;
-
   text-transform: uppercase;
   margin-bottom: 42px;
 }
 .accent_color {
-  color: #00e0ff;
+  color: var(--main);
 }
 .regular_button {
   display: flex;
@@ -94,10 +92,9 @@ h1 {
   transition: all 0.3s;
 }
 .regular_button_text {
-  color: #002c3f;
+  color: var(--text);
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
@@ -105,7 +102,7 @@ h1 {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background-color: #00e0ff;
+  background-color: var(--main);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -117,11 +114,11 @@ h1 {
   transition: all 0.3s;
 }
 .regular_button:hover {
-  border: 3px solid #002c3f;
+  border: 3px solid var(--text);
   transition: all 0.3s;
 }
 .regular_button:hover .regular_button_icon_wrapper {
-  background-color: #002c3f;
+  background-color: var(--text);
   transform: rotate(90deg);
   transition: all 0.3s;
 }
@@ -132,7 +129,7 @@ h1 {
 #f2,
 #f3 {
   width: 25%;
-  background-color: #eef7fe;
+  background-color: var(--bg);
   height: 100%;
   animation: changeColor 13.5s linear infinite;
 }
@@ -152,13 +149,13 @@ h1 {
 @keyframes changeColor {
   0%,
   100% {
-    background-color: #eef7fe;
+    background-color: var(--bg);
   }
   33% {
-    background-color: #00e0ff;
+    background-color: var(--main);
   }
   66% {
-    background-color: #eef7fe;
+    background-color: var(--bg);
   }
 }
 .left_bottom_block_content {
@@ -209,7 +206,7 @@ h1 {
   top: 15%;
 }
 .right_top_integrate_text {
-  color: #002c3f;
+  color: var(--text);
   text-align: center;
   font-family: 'Oswald', sans-serif;
   font-size: 32px;
@@ -327,11 +324,11 @@ h1 {
   .swiper-pagination-bullet {
     width: 8px;
     height: 8px;
-    background-color: #002c3f;
+    background-color: var(--text);
     opacity: 1;
   }
   .swiper-pagination-bullet-active {
-    background-color: #00e0ff;
+    background-color: var(--main);
     width: 32px;
     height: 8px;
     border-radius: 5px;

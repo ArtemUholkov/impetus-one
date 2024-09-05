@@ -36,19 +36,16 @@ footer {
 }
 .footer_links_title {
   color: #111;
-
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   margin-bottom: 22px;
 }
 .footer_link {
   color: #111;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  font-style: normal;
+  
   font-weight: 400;
   line-height: 140%;
   text-decoration: none;
@@ -70,7 +67,6 @@ footer {
   color: #111;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
   line-height: 140%;
 }
@@ -78,7 +74,6 @@ footer {
   color: #111;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 300;
   line-height: 140%;
 }

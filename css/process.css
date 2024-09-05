@@ -13,7 +13,6 @@
 .process_title {
   font-family: 'Oswald', sans-serif;
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
   line-height: 100%;
   text-transform: uppercase;
@@ -27,11 +26,9 @@
 }
 
 .step_number {
-  color: #002c3f;
-
+  color: var(--text);
   font-family: 'Roboto', sans-serif;
   font-size: 64px;
-  font-style: normal;
   font-weight: 500;
   line-height: 100%;
   position: relative;
@@ -54,10 +51,9 @@
   height: 60px;
 }
 .step_text {
-  color: #002c3f;
+  color: var(--text);
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   line-height: 140%;
 }
@@ -102,10 +98,10 @@
     margin-bottom: 24px;
   }
   .step_number {
-    color: #00e0ff;
+    color: var(--main);
   }
   .process_item_wrapper svg path {
-    fill: #00e0ff;
+    fill: var(--main);
   }
   .step_text {
     font-size: 18px;
@@ -121,19 +117,19 @@
 @media (min-width: 901px) {
   @keyframes colorChange {
     0% {
-      fill: #002c3f;
+      fill: var(--text);
     }
     25% {
-      fill: #00e0ff;
+      fill: var(--main);
     }
     50% {
-      fill: #002c3f;
+      fill: var(--text);
     }
     75% {
-      fill: #002c3f;
+      fill: var(--text);
     }
     100% {
-      fill: #002c3f;
+      fill: var(--text);
     }
   }
 
@@ -158,19 +154,19 @@
   }
   @keyframes textColorChange {
     0% {
-      color: #002c3f;
+      color: var(--text);
     }
     25% {
-      color: #00e0ff;
+      color: var(--main);
     }
     50% {
-      color: #002c3f;
+      color: var(--text);
     }
     75% {
-      color: #002c3f;
+      color: var(--text);
     }
     100% {
-      color: #002c3f;
+      color: var(--text);
     }
   }
 
