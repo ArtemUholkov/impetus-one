@@ -1,0 +1,193 @@
+.process {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #eef7fe;
+}
+
+.process_wrapper {
+  padding-left: 245px;
+  padding-right: 245px;
+  margin: 0 auto;
+  width: 100%;
+}
+.process_title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin-bottom: 64px;
+}
+
+.process_item_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.step_number {
+  color: #002c3f;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  position: relative;
+  top: 20px;
+}
+.step_step {
+  font-size: 24px;
+}
+.process_item_wrapper svg {
+  margin-bottom: 20px;
+}
+.step_icon-text_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.step_icon {
+  width: 60px;
+  height: 60px;
+}
+.step_text {
+  color: #002c3f;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.swiper-pagination-new-one {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: -30px !important;
+  top: auto;
+}
+.steps_slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1890px) {
+  .process_wrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (max-width: 1590px) {
+  .process_wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 1490px) {
+  .process_wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .process {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: transparent;
+  }
+  .process_title {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+  .step_number {
+    color: #00e0ff;
+  }
+  .process_item_wrapper svg path {
+    fill: #00e0ff;
+  }
+  .step_text {
+    font-size: 18px;
+  }
+  .step_icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (min-width: 901px) {
+  @keyframes colorChange {
+    0% {
+      fill: #002c3f;
+    }
+    25% {
+      fill: #00e0ff;
+    }
+    50% {
+      fill: #002c3f;
+    }
+    75% {
+      fill: #002c3f;
+    }
+    100% {
+      fill: #002c3f;
+    }
+  }
+
+  /* Apply animation to the SVG paths */
+  .steps_slide:nth-child(1) svg path {
+    animation: colorChange 16s linear infinite;
+  }
+
+  .steps_slide:nth-child(2) svg path {
+    animation: colorChange 16s linear infinite;
+    animation-delay: 4s;
+  }
+
+  .steps_slide:nth-child(3) svg path {
+    animation: colorChange 16s linear infinite;
+    animation-delay: 8s;
+  }
+
+  .steps_slide:nth-child(4) svg path {
+    animation: colorChange 16s linear infinite;
+    animation-delay: 12s;
+  }
+  @keyframes textColorChange {
+    0% {
+      color: #002c3f;
+    }
+    25% {
+      color: #00e0ff;
+    }
+    50% {
+      color: #002c3f;
+    }
+    75% {
+      color: #002c3f;
+    }
+    100% {
+      color: #002c3f;
+    }
+  }
+
+  /* Apply the animation to the step_number text */
+  .steps_slide:nth-child(1) .step_number {
+    animation: textColorChange 16s linear infinite;
+  }
+
+  .steps_slide:nth-child(2) .step_number {
+    animation: textColorChange 16s linear infinite;
+    animation-delay: 4s;
+  }
+
+  .steps_slide:nth-child(3) .step_number {
+    animation: textColorChange 16s linear infinite;
+    animation-delay: 8s;
+  }
+
+  .steps_slide:nth-child(4) .step_number {
+    animation: textColorChange 16s linear infinite;
+    animation-delay: 12s;
+  }
+}

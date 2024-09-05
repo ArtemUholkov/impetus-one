@@ -1,3 +1,177 @@
 .inno {
-  padding-top: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #eef7fe;
+}
+.inno_wrapper {
+  padding-left: 250px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+.inno_texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.inno_texts_uptitle {
+  color: #002c3f;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin-bottom: 10px;
+}
+.inno_texts_title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 64px */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.inno_texts_text {
+  color: #002c3f;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%;
+  margin-bottom: 7px;
+  max-width: 560px;
+}
+.bold_text {
+  font-weight: 700;
+}
+.inno_texts_theraipes {
+  color: #002c3f;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+.inno_texts_lists_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.inno_texts_list {
+  list-style: disc;
+  position: relative;
+  left: 40px;
+}
+.inno_texts_list_item {
+  color: #002c3f;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.inno_image_wrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.inno_image {
+  max-width: 1440px;
+  height: auto;
+}
+.inno_image_mob {
+  display: none;
+}
+@media (max-width: 1850px) {
+  .inno_image {
+    width: 1050px;
+    height: auto;
+  }
+}
+@media (max-width: 1770px) {
+  .inno_image {
+    width: 950px;
+    height: auto;
+  }
+}
+@media (max-width: 1680px) {
+  .inno_image {
+    width: 850px;
+    height: auto;
+  }
+  .inno_image_wrapper {
+    top: 50px;
+  }
+}
+@media (max-width: 1590px) {
+  .inno_wrapper {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 1400px) {
+  .inno_wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+  }
+  .inno_image_wrapper {
+    position: initial;
+  }
+  .inno_image {
+    display: none;
+  }
+  .inno_image_mob {
+    display: block;
+  }
+  .inno_wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 570px) {
+  .inno_texts_uptitle {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .inno_texts_title {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .inno_texts_text {
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+
+  .inno_texts_theraipes {
+    font-size: 20px;
+    margin-bottom: 10px;
+    max-width: 251px;
+  }
+  .inno_texts_lists_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+  }
+  .inno_texts_list {
+    list-style: disc;
+    position: relative;
+    left: 10px;
+  }
+  .inno_texts_list_item {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .inno {
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
 }

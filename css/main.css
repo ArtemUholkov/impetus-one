@@ -238,7 +238,7 @@ h1 {
 .main_deco_line-mob {
   display: none;
 }
-.swiper {
+.mySwiper {
   display: none;
 }
 .swiper-pagination {
@@ -315,7 +315,7 @@ h1 {
   .right_wrapper {
     width: auto;
   }
-  .swiper {
+  .mySwiper {
     display: block;
     padding-left: 20px;
     padding-right: 20px;
@@ -323,9 +323,7 @@ h1 {
     overflow: initial;
     margin-bottom: 28px;
   }
-  .swiper-slide {
-    max-width: 300px;
-  }
+
   .swiper-pagination-bullet {
     width: 8px;
     height: 8px;
@@ -425,6 +423,10 @@ h1 {
     height: 40px;
   }
   .regular_button_icon_wrapper {
+    height: 39px;
+    width: 39px;
+  }
+  .primary_button_icon_wrapper {
     height: 39px;
     width: 39px;
   }

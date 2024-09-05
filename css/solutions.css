@@ -1,0 +1,135 @@
+.solutions {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 100%;
+}
+
+.solutions_wrapper {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.solution_titles_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 90px;
+}
+.solutions_title {
+  max-width: 796px;
+  color: #002c3f;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 64px */
+  text-transform: uppercase;
+}
+.solutions_subtitle {
+  color: #002c3f;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%;
+  max-width: 687px;
+}
+.swiper {
+}
+.solutions_mySwiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.solutions_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 260px;
+  margin: 0 auto;
+}
+.solutions_item_icon {
+  height: 115px;
+  width: 115px;
+  margin-bottom: 10px;
+}
+.solutions_item_title {
+  color: #111;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin-bottom: 10px;
+}
+.solutions_item_text {
+  max-width: 260px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%;
+}
+.swiper-pagination-new {
+  margin: 0 auto;
+  text-align: center;
+  bottom: -60px;
+}
+.swiper_slide {
+  width: 100%;
+  max-width: auto;
+}
+@media (max-width: 1680px) {
+  .solutions_wrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (max-width: 1050px) {
+  .solutions_wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 900px) {
+  .solutions_wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .solutions_title {
+    font-size: 32px;
+    text-align: left;
+  }
+  .solutions_subtitle {
+    font-size: 20px;
+    text-align: left;
+  }
+  .solutions_item_title {
+    font-size: 20px;
+  }
+  .solutions_item_text {
+    max-width: 229px;
+    font-size: 16px;
+  }
+  .solution_titles_wrapper {
+    margin-bottom: 64px;
+  }
+  .solutions {
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+  .solutions_item_icon {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  .solution_titles_wrapper {
+    gap: 15px;
+  }
+}

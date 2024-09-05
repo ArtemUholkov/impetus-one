@@ -1,5 +1,6 @@
 .sync {
   padding-top: 285px;
+  padding-bottom: 100px;
   width: 100%;
 }
 .sync_wrapper {
@@ -129,6 +130,7 @@
 @media (max-width: 680px) {
   .sync {
     padding-top: 185px;
+    padding-bottom: 100px;
   }
   .sync_wrapper {
     padding-left: 20px;
