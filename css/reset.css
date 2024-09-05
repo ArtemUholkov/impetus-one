@@ -1,5 +1,10 @@
 * {
   box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+a:hover {
+  text-decoration: none;
 }
 
 /*CSS RESET START*/

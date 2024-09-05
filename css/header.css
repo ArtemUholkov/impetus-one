@@ -12,7 +12,20 @@ header {
   overflow: hidden;
   opacity: 1;
 }
+.modal {
+  overflow-y: auto;
+}
 
+.modal-open {
+  overflow: auto;
+}
+
+.modal-open[style] {
+  padding-right: 0px !important;
+}
+.modal-dialog {
+  max-width: 1000px;
+}
 .header_wrapper {
   background-color: #eef7fe;
   width: 100%;
