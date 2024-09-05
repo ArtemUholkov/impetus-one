@@ -202,4 +202,7 @@
   .faq {
     padding-top: 100px;
   }
+  .faq_wrapper {
+    min-height: auto;
+  }
 }

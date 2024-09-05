@@ -556,6 +556,7 @@
       </div>
     </section>
     <section class="reviews">
+      <img src="img/review/phone.webp" alt="phone" class="rev_absolute_phone" />
       <div class="reviews_texts_wrapper">
         <p class="reviews_texts_uptitle">A Platform You Can Trust</p>
         <p class="reviews_texts_title">Customer Satisfaction</p>
@@ -566,7 +567,58 @@
       </div>
       <div class="reviews_blocks_wrapper">
         <div class="re_block_left"></div>
-        <div class="reviews_reviews_block"></div>
+        <div class="reviews_reviews_block">
+          <div class="swiper reviews_mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide review_slide">
+                <div class="review_wrap">
+                  <p class="review_text">
+                    “They respond quickly to questions and my medication is always delivered on
+                    time!”
+                  </p>
+                  <div class="star_wrap">
+                    <img src="img/review/stare.svg" alt="star" class="star_rev" />
+                    <img src="img/review/stare.svg" alt="star" class="star_rev" />
+                    <img src="img/review/stare.svg" alt="star" class="star_rev" />
+                    <img src="img/review/stare.svg" alt="star" class="star_rev" />
+                    <img src="img/review/stare.svg" alt="star" class="star_rev" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide review_slide">
+                <div class="review_wrap">
+                  <p class="review_text">
+                    "With full integration, Impetus One has increased our revenue and patient
+                    satisfaction"
+                  </p>
+                  <div class="star_wrap">
+                    <img src="img/review/stare.svg" alt="star" class="star_rev" />
+                    <img src="img/review/stare.svg" alt="star" class="star_rev" />
+                    <img src="img/review/stare.svg" alt="star" class="star_rev" />
+                    <img src="img/review/stare.svg" alt="star" class="star_rev" />
+                    <img src="img/review/stare.svg" alt="star" class="star_rev" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide review_slide">
+                <div class="review_wrap">
+                  <p class="review_text">
+                    "The Impetus One's quick set-up and increased profits make it a must-have for
+                    any practice!"
+                  </p>
+                  <div class="star_wrap">
+                    <img src="img/review/stare.svg" alt="star" class="star_rev" />
+                    <img src="img/review/stare.svg" alt="star" class="star_rev" />
+                    <img src="img/review/stare.svg" alt="star" class="star_rev" />
+                    <img src="img/review/stare.svg" alt="star" class="star_rev" />
+                    <img src="img/review/stare.svg" alt="star" class="star_rev" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination-new-one-two"></div>
+          </div>
+        </div>
         <div class="re_right_small"></div>
         <div class="re_right_big"></div>
       </div>
@@ -617,6 +669,18 @@
       },
       pagination: {
         el: '.swiper-pagination-new-one',
+      },
+    });
+    var swiper3 = new Swiper('.reviews_mySwiper', {
+      autoplay: true,
+      loop: true,
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
+      },
+      pagination: {
+        el: '.swiper-pagination-new-one-two',
       },
     });
   </script>
