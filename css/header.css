@@ -15,7 +15,12 @@ header {
 .modal {
   overflow-y: auto;
 }
-
+.bg_mob_menu {
+  width: 100%;
+  margin-top: 25px;
+  position: relative;
+  top: 125px;
+}
 .modal-open {
   overflow: auto;
 }
