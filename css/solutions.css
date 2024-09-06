@@ -69,11 +69,13 @@
 .swiper-pagination-new {
   margin: 0 auto;
   text-align: center;
-  bottom: -60px;
 }
 .swiper_slide {
   width: 100%;
   max-width: auto;
+}
+.solutions_mySwiper {
+  margin-bottom: 20px;
 }
 @media (max-width: 1680px) {
   .solutions_wrapper {

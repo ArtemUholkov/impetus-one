@@ -91,7 +91,7 @@
 @media (max-width: 900px) {
   .process {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
     background: transparent;
   }
   .process_title {

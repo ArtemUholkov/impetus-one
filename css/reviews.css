@@ -154,7 +154,12 @@
   .reviews_blocks_wrapper {
     left: auto;
     top: auto;
+    transform: skew(-10deg, 0);
   }
+  .reviews_mySwiper {
+    transform: skew(10deg, 0);
+  }
+
   .reviews {
     display: flex;
     flex-direction: column;
@@ -164,7 +169,7 @@
 }
 @media (max-width: 850px) {
   .reviews {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -182,6 +187,7 @@
   }
   .reviews_texts_wrapper {
     max-width: 304px;
+    align-self: flex-start;
   }
   .review_text {
     max-width: 236px;
@@ -195,7 +201,7 @@
     justify-content: center;
   }
   .star_wrap {
-    margin-top: 25px;
+    margin-top: 20px;
   }
   .star_rev {
     width: 16.923px;

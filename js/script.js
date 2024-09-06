@@ -84,3 +84,4 @@ function toggleAnswer(faqId) {
     activeFaqId = faqId; // Set the new active FAQ
   }
 }
+document.querySelector('#faq-click').click();

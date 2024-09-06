@@ -3,7 +3,7 @@
   overflow: hidden;
 }
 .faq_wrapper {
-  padding-left: 204px;
+  padding-left: 224px;
   margin-right: 148px;
   position: relative;
   min-height: 800px;
@@ -131,17 +131,17 @@
 }
 @media (max-width: 1880px) {
   .faq_wrapper {
-    padding-left: 100px;
+    padding-left: 80px;
     margin-right: 50px;
   }
 }
 @media (max-width: 1700px) {
   .faq_wrapper {
-    padding-left: 50px;
+    padding-left: 80px;
     margin-right: 30px;
   }
 }
-@media (max-width: 1600px) {
+@media (max-width: 1630px) {
   .faq-item {
     max-width: 700px;
   }
